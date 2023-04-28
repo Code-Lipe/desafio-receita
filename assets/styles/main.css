@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --background-body: #EAEAEA;
+    --background-revenue: #FFFFFF;
+    --titles: #1B1B1B;
+    --subtitles: #8F8F8F;
+}
+
+body {
+    background-color: var(--background-body);
+}
+
+main {
+    background-color: var(--background-revenue);
+    padding: 50px 30px;
+    margin: 5vh 20vh;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+    font-size: 2.5rem;
+}
+
+main figure img {
+    margin: 0 auto;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+figcaption {
+    padding: 5px 0px 30px 0px;
+    display: flex;
+    justify-content: end;
+}
+
+figcaption a {
+    color: var(--subtitles);;
+}
+
+.ingredients {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ingredients li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.preparation {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.preparation p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.preparation li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.information {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.information li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: var(--subtitles);
+}
